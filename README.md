@@ -34,6 +34,15 @@ If you find our code or method helpful, please use the following BibTex entry.
 }
 ```
 
+## Install the environment 
+```sh
+conda create -n asdf python=3.7 
+pip install torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install scipy
+pip install trimesh
+pip install scikit-image
+pip install plyfile
+```
 
 ## Data preparation and layout
 
